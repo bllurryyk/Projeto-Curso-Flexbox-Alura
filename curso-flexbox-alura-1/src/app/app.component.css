@@ -9,6 +9,37 @@
   display: flex;
 }
 
+.rodapePrincipal-navMap-list {
+  display: flex;
+  /* separar em colunas e delimitar o tamanho, para que seja jogado para outra coluna */
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* ou pode ser utilizado em apenas um comando */
+  flex-flow: column wrap;
+  height: 260px;
+}
+
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-right: 5%;
+  justify-content: space-around;
+}
+
+.rodapePrincipal-contatoForm {
+  width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
+
 /* CSS Normal */
 body {
 	background-color: #F2F5F7;
